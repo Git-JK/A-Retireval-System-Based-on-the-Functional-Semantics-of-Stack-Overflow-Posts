@@ -32,4 +32,4 @@ src中为源代码，baseline中为AnswerBot方法的复现代码，system-front
 
 在得到$P_{search}$中每一个问答帖的问题描述$Q_d$与问题q的隐式功能语义匹配得分$Score_{implicit} (q,Q_d)$后，记其中最高的得分为$Score_{max} (Q_d)$；同理得到所有问答帖的被接受答案A与问题q的隐式功能语义匹配得分中的最高得分$Score_{max}  (A)$。给出某个问答帖post与问题q的匹配度计算公式如下：
 
-$Score(q,post)=1/3(Score_emplicit (q,post)+(Score_{implicit} (q,Q_d ))/(Score_{max} (Q_d ) )+(Score_{implici}t (q,A))/(Score_{max}(A)))$
+$Score(q,post)=1/3(Score_{emplicit} (q,post)+(Score_{implicit} (q,Q_d ))/(Score_{max} (Q_d ) )+(Score_{implici}t (q,A))/(Score_{max}(A)))$
